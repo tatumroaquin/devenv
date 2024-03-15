@@ -41,8 +41,9 @@ install() {
   echo
   echo '# dotnet'
   echo 'export DOTNET_ROOT="$HOME/.dotnet"'
-  echo 'export DOTNET_TOOLS="$DOTNET_ROOT/tools"'
+  echo 'export DOTNET_TOOLS="$HOME/.dotnet/tools"'
   echo 'export DOTNET_CLI_TELEMETRY_OPTOUT="true"'
+  echo 'export PATH="$PATH:$DOTNET_ROOT:$DOTNET_TOOLS"'
   echo '# dotnet end'
   } >> "$RUNCOM_FILE"
 }
