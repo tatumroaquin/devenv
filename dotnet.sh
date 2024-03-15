@@ -4,7 +4,7 @@
 
 # source https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script
 DN_SCRIPT="https://dot.net/v1/dotnet-install.sh"
-DOTNET_ROOT="$DOTNET_ROOT"
+DOTNET_ROOT="$HOME/.dotnet"
 
 SHELL_NAME=$(echo "$SHELL" | awk -F'/' '{print $NF}')
 
