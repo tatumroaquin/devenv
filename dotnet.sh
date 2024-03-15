@@ -37,6 +37,10 @@ install() {
   chmod +x ./dotnet-install.sh
   ./dotnet-install.sh --install-dir "$DOTNET_ROOT"
 
+  if [ "$SHELL_NAME" = "ash" ]; then
+    doas apk add icu-libs
+  fi
+
   {
   echo
   echo '# dotnet'
