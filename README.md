@@ -2,9 +2,10 @@
 
 <div align='center'>
 
-| Language | Shell Script                                                                      |
-|----------|-----------------------------------------------------------------------------------|
-| C#       | [dotnet.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/dotnet.sh) |
-| Perl     | [plenv.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/plenv.sh)   |
+| Language    | Shell Script                                                                      |
+|-------------|-----------------------------------------------------------------------------------|
+| C#          | [dotnet.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/dotnet.sh) |
+| Perl        | [plenv.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/plenv.sh)   |
+| Java,Kotlin | [plenv.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/sdkman.sh)  |
 
 </div>
