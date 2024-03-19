@@ -54,7 +54,7 @@ install() {
 
 remove() {
   rm -rf "$DOTNET_ROOT"
-  sed -i '/dotnet/,/dotnet end/d' "$RUNCOM_FILE"
+  sed -i '/^# dotnet/,/^# dotnet end/d' "$RUNCOM_FILE"
 }
 
 case "$1" in
