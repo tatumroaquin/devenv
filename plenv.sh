@@ -5,6 +5,15 @@
 # If you don't use `bash` or `zsh` as your shell you need 
 # to modify this script to point it to your runcom file.
 
+REQUIRED=(sed awk make git)
+
+for program in "${REQUIRED[@]}"; do
+  if ! command -v "$program" &> /dev/null; then
+    echo "$program command is required but does not exist on this system"
+    exit 1;
+  fi;
+done
+
 PLENV_ROOT="$HOME/.plenv"
 
 SHELL_NAME=$(echo "$SHELL" | awk -F'/' '{print $NF}')
@@ -53,7 +62,7 @@ install() {
 
 remove() {
   rm -rf "$PLENV_ROOT"
-  sed -i '/plenv/,/plenv end/d' "$RUNCOM_FILE"
+  sed -i '/^# plenv/,/^# plenv end/d' "$RUNCOM_FILE"
 }
 
 case "$1" in
