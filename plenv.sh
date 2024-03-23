@@ -55,7 +55,7 @@ install() {
   echo
   echo '# plenv'
   echo 'export PATH="$PATH:$HOME/.plenv/bin"'
-  echo "eval \"$(plenv init - $SHELL_NAME)\""
+  echo 'eval "$(plenv init - $SHELL)"'
   echo '# plenv end'
   } >> "$RUNCOM_FILE"
 }
