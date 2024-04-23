@@ -12,7 +12,7 @@ __What about [asdf](https://github.com/asdf-format/asdf) and [mise](https://gith
 * Features such as `dotnet tool` installations or installing language specific libraries may not work for niche languages.
 * So I followed the philosophy __*special purpose tools are almost always better, than general purpose tools*__
 * Because prior to the existence of `asdf` and `mise`, language version managers already exists and has significantly matured.
-* By using these old solutions, configuration issues are resolved easily due to the wealth of knowledge existing documentation in the internet.
+* By using these old solutions configuration issues are easily resolved, with the existing documentation on the internet.
 
 ## List of programming languages and their setup scripts
 
