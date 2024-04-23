@@ -20,8 +20,9 @@ __What about [asdf](https://github.com/asdf-format/asdf) and [mise](https://gith
 
 |  Languages  |                                    Shell Script                                   |                           Source                          |
 |:-----------:|:---------------------------------------------------------------------------------:|:---------------------------------------------------------:|
-| C#          | [dotnet.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/dotnet.sh) | [dotnet/core](https://github.com/dotnet/core)             |
+| C#,F#,VB    | [dotnet.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/dotnet.sh) | [dotnet/core](https://github.com/dotnet/core)             |
 | Perl        | [plenv.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/plenv.sh)   | [tokuhirom/plenv](https://github.com/tokuhirom/plenv)     |
 | Java,Kotlin | [sdkman.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/sdkman.sh) | [sdkman/sdkman-cli](https://github.com/sdkman/sdkman-cli) |
+| Ruby        | [rbenv.sh](https://raw.githubusercontent.com/tatumroaquin/devenv/main/rbenv.sh)   | [rbenv/rbenv](https://github.com/rbenv/rbenv) |
 
 </div>
